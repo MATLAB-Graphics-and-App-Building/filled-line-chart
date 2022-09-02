@@ -177,7 +177,7 @@ classdef filledLineChart < matlab.graphics.chartcontainer.ChartContainer
 
             % For one line, only need to designate a single color.
             if ncols <= 1
-                obj.PatchObject.FaceColor = getColors(ncols, obj.ColorOrder);
+                obj.PatchObject.FaceColor = getColors(1, obj.ColorOrder);
             elseif ncols > 1
                 obj.PatchObject.FaceColor = 'flat';
             end
