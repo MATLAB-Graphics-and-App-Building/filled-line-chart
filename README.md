@@ -21,8 +21,8 @@ Rather than depending on patch's algorithm to triangulize the object for renderi
 This information is also available if you call `help filledLineChart`.
 
 ## Name-Value Pair Arguments/Properties
-- `XData` (n x 1 vector) - the x-coordinates of the line, not including NaNs.
-- `YData` (n x m vector) - the y-coordinates of the line, not including NaNs. Each column is assumed to be a new line representing `m` different lines, each assuming to share the same `n` x-coordinates.
+- `XData` (n x 1 numeric vector) - the x-coordinates of the line, not including NaNs.
+- `YData` (n x m numeric non-negative vector) - the y-coordinates of the line, not including NaNs. Each column is assumed to be a new line representing `m` different lines, each assuming to share the same `n` x-coordinates.
 - `Title` (1 x n char vector) - the title of the chart.
 - `Subtitle` (1 x n char vector) - the subtitle of the chart.
 - `XLabel` (1 x n char vector) - the label of the x-axis.
