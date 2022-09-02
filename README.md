@@ -1,5 +1,7 @@
 # Filled Line Chart
 
+[![View Filled Line Chart on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/117080-filled-line-chart)
+
 Version: 1.0
 
 Plots a line chart with a filled gradient using explicit triangulation for optimization.
