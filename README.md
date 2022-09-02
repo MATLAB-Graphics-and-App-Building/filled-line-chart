@@ -2,7 +2,7 @@
 
 Version: 1.0
 
-A line chart with a filled gradient using explicit triangulation for optimization.
+Plots a line chart with a filled gradient using explicit triangulation for optimization.
 
 ![Example of Filled Line Chart by plotting a sine curve.](./example.png)
 
